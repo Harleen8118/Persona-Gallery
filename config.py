@@ -1,6 +1,6 @@
 from pathlib import Path
 
-RAW_IMAGES_DIR = Path("./my-photos")  # input
+RAW_IMAGES_DIR = Path("C:\\my_photos")  # input
 OUTPUT_BASE_DIR = RAW_IMAGES_DIR / "grouped_by_person"  # output root
 CHROMA_DB_DIR = Path("./.chroma_faces")
 
